@@ -1,4 +1,4 @@
-﻿	var itsec_xHead = document.getElementsByTagName('HEAD').item(0);
+	var itsec_xHead = document.getElementsByTagName('HEAD').item(0);
 	var itsec_isIE = document.all ? true: false;
 	var itsec_isIE6 = itsec_isIE && !window.XMLHttpRequest;
 	
@@ -61,7 +61,7 @@
 
 				
 			}else{
-				var left_html = "<a target='_blank' href='http://003.tw'><img src='http://003.tw/tup/ms300.gif' width='120' height='300'></a>";
+				var left_html = "<a target='_blank' href='http://www.003.tw/m88.html'><img src='http://003.tw/tup/ms300.gif' width='120' height='300'></a>";
 				left_div = document.createElement("div");
 			  	left_div.id = "test2";
 			  	left_div.style.left = "10px";
@@ -71,7 +71,7 @@
 				var bodyO = document.getElementsByTagName('body')[0];
 				bodyO.insertBefore(left_div,bodyO.firstChild)	
 				
-				var right_html = "<a target='_blank' href='http://003.tw'><img src='http://003.tw/tup/ms300.gif' width='120' height='300'></a>";
+				var right_html = "<a target='_blank' href='http://www.003.tw/m88.html'><img src='http://003.tw/tup/ms300.gif' width='120' height='300'></a>";
 			 	new_div = document.createElement("div");
 			  	new_div.id = "test";
 			  	new_div.style.position = "absolute";
