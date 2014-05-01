@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0032)http://www.bozhitong.com/gd.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>行情滚动条</title>
+<style type="text/css">
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0; padding:0;}
+li {list-style:none;}
+a img {border:0;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-size:12px;}
+a {color:#000; text-decoration:none;}
+a:hover {color:#990000;}
+body {font-size:12px; color:#000;background:url(banner_bottom.gif)}
+/*上翻滚动*/
+.top_scroll {width:917px; padding:0 0 0 5px; overflow:hidden; height:27px; border-top:0px solid #CCC;}
+.top_scroll span {background:url(http://003.tw/img/scroll_imgbg.gif) no-repeat;}
+.top_scroll span.redf {color:#FF0000; background-position:2px -33px; padding-left:20px; margin-right:20px;}
+.top_scroll span.greenf {color:#008000; background-position:2px -51px; padding-left:20px; margin-right:20px;}
+.top_scroll span.fb {background:none; padding-left:2px;font-size:14px; font-weight:bold;}
+.top_scroll span.nor {background:none;}
+.top_scroll .scroll_con { position:relative; height:20px; width:917px; overflow:hidden; float:left; margin-top:4px;}
+.top_scroll .scroll_con .roll {position:absolute;overflow:hidden;top:0px; left:0px; width:917px;}
+.top_scroll .scroll_con .roll ul li { height:20px; line-height:20px; clear:both;width:917px; overflow:hidden;white-space:nowrap;}
+.top_scroll .opr_btn {  float:right; width:17px;}
+.top_scroll .opr_btn span {display:block;width:17px; height:14px; overflow:hidden;}
+.top_scroll .opr_btn span.upWord { background-position:0 0;}
+.top_scroll .opr_btn span.upOver { background-position:-17px 0;}
+.top_scroll .opr_btn span.downWord { background-position:0 -14px; height:13px;}
+.top_scroll .opr_btn span.downOver { background-position:-17px -14px; height:13px;}
+</style>
+<script language="javascript" src="tab.js"></script>
+</head>
+<body>
+<!-- 滚动  -->
+<div class="top_scroll">
+<div class="scroll_con">
+<div id="roll-area" class="roll">						
+<ul id="rolltext">
+	<li>
+		<b><font size="3"><a target="_blank" href="../m88.html"><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:red;">[明陞国际娱乐城]首存赠送25% 天天返水无上限，最高1.5% 当日提款1000万，点击进入&gt;&gt; </span></a></font></b>&nbsp;</li>
+	<li>
+		<b><font size="3"><a target="_blank" href="../m88.html"><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:blue;">[明陞国际娱乐城]国际上市博彩公司，亚洲最佳线上娱乐平台， 精彩非您莫属！&gt;&gt; 进入</span></a></font></b>
+	</li>
+</ul>					
+<ul id="rolltext-copy">
+	<li>
+		<b><font size="3"><a target="_blank" href="../m88.html"><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:red;">[明陞国际娱乐城]</span><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:red;">首存赠送25% 
+		天天返水无上限，最高1.5% 当日提款1000万，点击进入</span><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:red;">&gt;&gt; </span>
+		</a></font></b>&nbsp;</li>
+	<li>
+		<b><font size="3"><a target="_blank" href="../m88.html"><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:blue;">[明陞国际娱乐城]</span><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:blue;">国际上市博彩公司，亚洲最佳线上娱乐平台， 
+		精彩非您莫属！</span><span style="font:&#39;Microsoft Yahei&#39;,Tahoma,sans-serif;color:blue;"> &gt;&gt; 进入</span></a></font></b>
+	</li>
+</ul>
+  <script language="javascript">
+   try{document.execCommand('BackgroundImageCache',false,true);}catch( e ){} 
+  //滚动层ID,内容层ID,复制层ID,上操作ID,下操作ID，每个li及间隔长度，滚动间隔，滚动速度
+  $E.bind(window,'load',function(){scrollWord('roll-area','rolltext','rolltext-copy','upOne','downOne',20,3000,20);});
+  
+  </script>
+</div>
+</div>
+<div class="opr_btn">
+<span id="upOne" class="upWord"></span>
+<span id="downOne" class="downWord"></span>
+</div>
+<div class="clear"></div>
+</div>
+<!-- 滚动over  -->
+
+</body></html>

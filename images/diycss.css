@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ul,li{list-style:none;}
+.blank10{clear:both;overflow:hidden;height:4px}
+.dotLine{border-top:1px dashed #d3d3d3}
+.newslist li{list-style:none; height:25px;line-height:25px;overflow:hidden;font-size:14px; padding-left:15px;}
+.newslist li a{color:#333; text-decoration:none;}
+.newslist li a:hover{color:#F00;}
+.newslist li span{float:right; color:#999; padding-top:8px; line-height:100%;}
+
+.pagenav{height:25px; border-bottom:1px solid #ccc; margin-bottom:10px; padding-left:15px;}
+
+/*右边新闻列表*/
+.rightnews{border:1px solid #ccc; margin-bottom:6px;}
+.rightnews h2{background:url(title.png); height:27px;font-size:14px;padding:5px 0 0 10px;}
+.rightnews h2 span{float:right; padding-right:10px;}
+.rightnews h2 span a{font-size:12px;}
+.rightul{padding:10px; background-color:#FFF;}
+
+.rightul li{height:23px; line-height:23px;}
+.rightul span{color:#999;line-height:23px;}
+.rightul span img{ vertical-align:text-top;line-height:23px;}
+.ltdlist li{border-bottom:1px solid #f2f2f2; height:25px; line-height:25px;}
+.ltdlist li a{ line-height:25px;}
+
+.dcad{height:100px; overflow:hidden; padding:5px;}
+.dcad h3{text-align:left;font-size:14px;}
+
+
+.leftnews li{height:23px; width:200px; overflow:hidden;}
+.trtitle{ background:#ccc; height:28px; text-align:center;}
+
+.tt1 td{text-align:center;}
+.tt1 tr{text-align:center;}
+.ltdtr{text-align:center; height:35px; border-bottom:1px solid #ccc;}
+.ltdtr td{ padding:5px;}
+
+.ltdinfotable td{padding:5px;}
+
+/*新闻内容*/
+.newscontent{ background-color:#FFF;border:1px solid #ccc;padding:15px;}
+.newscontent h2{font-size:16px;text-align:center; margin-bottom:10px;}
+.newscontent .contentdiv{line-height:180%;font-size:1.1em;}
+.newscontent .contentdiv h2{line-height:180%;text-align:left;}
+.newscontent .newsinfo{color:#666;text-align:center;}
+
+/*广告*/
+.ad980{width:980px; height:60px; overflow:hidden; margin-bottom:2px;}
+.ad720_top{width:730px;height:80px;overflow:hidden;margin-top:10px;}
+.ad385{width:385px;height:45px;overflow:hidden;margin-top:5px;padding:0;}
+.ad385 li{padding:0px; margin:0; list-style:none;}
+.ad190{width:190px;hieght:130px; overflow:hidden; margin-top:5px; text-align:center; margin-bottom:5px;}
+#lwc p{height:65px;line-height:65px;}
+#rwc p{height:65px;line-height:65px;}
+
+/*友站链接*/
+.links { border:1px solid #ccc; margin-bottom:10px;}
+.links h2{background:url(title.png); height:27px;font-size:14px;padding:5px 0 0 10px;}
+.links ul {margin:10px;}
+.piclinks li{float:left; width:120px; height:60px; overflow:hidden; margin-right:10px;margin-bottom:10px;}
+.textlink{margin-top:15px;}
+.textlink li{float:left; margin-right:10px; margin-bottom:10px;}
+
+.clear{clear:both;}
+
+#button1{border:1px solid #ccc;padding:0 5px 0 5px; margin-bottom:8px; cursor:pointer;}
+#button2{border:1px solid #ccc;padding:0 5px 0 5px; margin-bottom:8px; cursor:pointer;}
+#button1:hover{border:1px solid #ccc;padding:0 5px 0 5px; background-color:#F90; margin-bottom:8px; cursor:pointer;}
+#button2:hover{border:1px solid #ccc;padding:0 5px 0 5px; background-color:#F90; margin-bottom:8px; cursor:pointer;}
+
+.netslist .lititle{height:25px;line-height:25px;overflow:hidden;font-size:14px; padding-left:15px;}
+.newslist .liinfo{height:65px;padding-left:15px; line-height:180%; overflow:hidden; border-bottom:2px solid #99C; margin-bottom:10px; padding-top:10px; padding-bottom:10px;}
+
+.lititle a{color:#333; text-decoration:none;font-size:14px; font-weight:bold;}
+.lititle a:hover{color:#F00;}
+.lititle .spanr{color:#666; padding-top:8px; line-height:100%;}
+
+
+.ltd6td{border:1px solid #ccc; padding:5px; empty-cells:inherit;}
+.ltd6td table{border:1px solid #F60;}
+.ltd6td table td{width:20%;text-align:center; padding-top:3px; padding-bottom:3px;}
+.ltdtitle{text-align:center; font-size:14px; font-weight:bold; background:url(nv.png);color:#FFF;}
+.ad210{ width:210px;heigh:100px; overflow:hidden; text-align:center; vertical-align:middle;padding-top:3px; padding-bottom:3px;}
+
+.itemFav{ margin-top:1px; background-color:#42c4db; position:absolute; z-index:10; padding:6px; font-size:12px; line-height:22px; text-align:left; width:83px; margin-left:0px; visibility:hidden;}
+.itemFav a{ display:block; height:22px; margin-bottom:1px; color:white; background:#6ad2e5 3px center; padding-left:12px;}
+.itemFav a:hover{ text-decoration:none; color:black; background-color:white;}
+
+/*help*/
+.help_div {}
+	.help_q{font-size:14px; font-weight:bold; background:url(http://003.tw/images/help_q.gif) no-repeat left top; padding-left:22px; margin-top:8px;}
+		.help_d{font-size:12px; font-weight:100; color:#999}
+	.help_a{border-bottom:1px dotted #ccc; margin-bottom:8px; padding-left:22px;background:url(http://003.tw/images/help_a.gif) no-repeat left top;}
